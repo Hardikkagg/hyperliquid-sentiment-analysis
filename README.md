@@ -64,6 +64,18 @@ All charts are saved in the `charts/` folder.
 
 ##  How to Run
 
-1. Clone the repository:
-```bash
+Clone the repository:
 git clone https://github.com/your-username/hyperliquid-sentiment-analysis.git
+cd hyperliquid-sentiment-analysis
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the notebook:
+jupyter notebook
+
+Open hyperliquid_sentiment_analysis.ipynb and click "Run All Cells"
+
+View results:
+- Charts will appear in the notebook
+- Saved charts are in the charts/ folder
